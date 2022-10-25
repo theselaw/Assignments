@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zuri-Form Validation Project</title>
+</head>
+<body>
+    <!--The action attribute helps redirects the page to "login.html" page when the submit button is clicked-->
+    <form action="login.html">
+    <!--Creates an input text field with label first name above it-->
+    <label for="first-name">First Name</label><br/>
+    <!--The "required" attribute sets a condition thet unless the right syntax is used as entry give the user a prompt and don't proceed to the next page yet. -->
+    <input type="text" name="first-name" required autofocus autocomplete="">
+    <br/>
+    <!--Creates an input text field with label Last name above it-->
+    <label for="last-name">Last Name</label><br/>
+    <input type="text" name="last-name" required autofocus>
+    <br/>
+    <!--Creates an input text field for numeric entries with label Phone Number above it-->
+    <label for="">Phone Number</label><br/>
+    <input type="tel" name="" id="" required autofocus>
+    <br/>
+    <!--Creates an input text field that takes only email with label Email Address above it-->
+    <label for="email">Email Address</label><br/>
+    <input type="email" name="email" id="" required autofocus>
+    <br/>
+    <!--Creates a selection drop-down field with label Gender above it-->
+    <label for="Gender">Gender</label><br/>
+    <select>
+        <option>Select Your gender</option>
+        <option>Male</option>
+        <option>Female</option>
+    </select><br/>
+    <!--Creates a date selection field with label "Date of birth above it" -->
+    <label for="date">Date of birth</label><br/>
+    <input type="date" name="date" id="" >
+    <br/>
+    <!--Creates a color selection field with label "Favorite Color" above it-->
+    <label for="color" >Favorite Color</label><br/>
+    <input type="color" name="" id="" required>
+    <br/>
+    
+    
+    
+    <!--Creates an input text field with label first name above it-->
+    <button type="submit">Register</button>
+    </form>
+</body>
+</html>
